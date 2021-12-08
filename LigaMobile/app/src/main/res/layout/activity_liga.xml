@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true"
+    android:id="@+id/liga"
+    tools:context=".activity.liga">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_liga_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48sp"
+                android:layout_marginTop="24sp"
+                android:text="LIGA"
+                android:textSize="42sp" />
+
+            <TextView
+                android:id="@+id/tv_liga_nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48sp"
+                android:layout_marginTop="24sp"
+                android:text="Nome da Liga"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/et_liga_nome"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="48sp"
+                android:layout_marginTop="12sp"
+                android:text=""
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_liga_n_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48sp"
+                android:layout_marginTop="24sp"
+                android:text="Número de Times"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/s_n_times"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="48sp"
+                android:layout_marginTop="24sp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <Button
+                android:id="@+id/bt_atualizar"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24sp"
+                android:text="Cadastrar"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/bt_excluir"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24sp"
+                android:text="Excluir"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@layout/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

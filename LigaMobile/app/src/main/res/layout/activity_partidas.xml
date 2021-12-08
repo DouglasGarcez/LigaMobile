@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/partidas"
+    tools:context=".activity.Partidas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Partida 1"
+                android:id="@+id/bt_partida_1_1"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Partida 2"
+                android:id="@+id/bt_partida_1_2"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Partida 3"
+                android:id="@+id/bt_partida_1_3"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Partida 4"
+                android:id="@+id/bt_partida_1_4"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Partida 5"
+                android:id="@+id/bt_partida_2_1"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Partida 6"
+                android:id="@+id/bt_partida_2_2"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Partida 7"
+                android:id="@+id/bt_partida_3_1"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@layout/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

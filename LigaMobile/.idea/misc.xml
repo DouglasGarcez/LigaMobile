@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/drawable/ic_menu.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_camera.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_equipe.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_equipes.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_liga.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_organizacao_liga.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/activity_partida.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/layout/nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/202012141945/202012141945/Liga/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/drawable/ic_menu.xml" value="0.2203125" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/layout/activity_camera.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/layout/activity_equipe.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/layout/activity_equipes.xml" value="0.20416666666666666" />
+        <entry key="..\:/UCS/6 semestre/Dispositivos Moveis/ultima_versao/Liga/app/src/main/res/layout/activity_liga.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

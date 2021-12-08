@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".activity.Equipe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_time_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48sp"
+                android:layout_marginTop="24sp"
+                android:text="TIME"
+                android:textSize="42sp" />
+
+            <EditText
+                android:id="@+id/et_time_nome"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="48sp"
+                android:layout_marginTop="12sp"
+                android:text=""
+                android:textSize="30sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="0dp"
+                android:layout_gravity="center"
+                android:layout_height="120dp"
+                android:layout_width="120dp">
+
+                <ImageView
+                    android:id="@+id/iv_picture_equipe"
+                    tools:ignore="ContentDescription"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/bt_foto"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24sp"
+                android:text="Visualizar Imagem"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/bt_atualizar_time"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24sp"
+                android:text="Atualizar"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
